@@ -1,0 +1,20 @@
+<div class="container">
+    <form class="myForm">
+        <h1>Введите текст или выберите файл</h1>
+
+        <div class="col-md-6">
+            <label for="text">Ваш текст:</label>
+            <input id="text" class="form-control" ng-model="Form.input_text">
+
+            <button type="button" class="btn btn-primary btn-lg" ng-click="Form.showContent();Form.page('/result')">
+                Обработать
+            </button>
+        </div>
+
+        <div class="col-md-5">
+            <input class="choose-file" type="file" on-read-file="Form.showContent($fileContent)">
+        </div>
+    </form>
+</div>
+
+    

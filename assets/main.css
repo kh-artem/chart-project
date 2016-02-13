@@ -1,0 +1,28 @@
+form{
+    width: 800px;
+    margin: 40px auto;
+}
+
+.choose-file{
+    margin-top: 30px;
+}
+
+.myForm button{
+    margin-top: 30px;
+
+}
+
+.result{
+    width: 200px;
+    margin: 30px auto;
+
+}
+
+.result p{
+    font: 20px Arial;
+}
+
+.panel{
+    width: 800px;
+    margin: 30px auto;
+}
